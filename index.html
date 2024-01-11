@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong&effect=shadow-multiple">
+    <meta charset="utf-8">
+    <title>Maleeha's Art Portfolio</title>
+    <style>
+      body {
+        font-size: 22px;
+        font-family: "Trirong", serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+        color: white;
+      }
+
+      /*
+Code copied from: https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section2
+Author: w3schools.com
+Name: HowTO Smooth Scroll
+Description: Smooth Scroll Transition
+Date retrieved: December 5 2023
+*/
+
+      /* Copied code starts */
+
+      html {
+        scroll-behavior: smooth;
+        transition-timing-function: ease-in-out;
+        transition-duration: 1000ms;
+      }
+
+      /* Copied code ends */
+
+
+      header {
+        background-color: #fffafa;
+        color: #b395d1;
+        text-align: center;
+        position: fixed;
+        width: 100%;
+        top: 0;
+
+        padding: 20px;
+      }
+
+      header h1 {
+        font-size: 40px;
+        font-family: "Trirong", serif;
+        margin: 0;
+
+      }
+
+      header p {
+        color: #000000;
+        font-size: 22px;
+        font-style: italic;
+        margin: 0;
+      }
+
+      nav {
+
+        margin-top: 20px;
+        padding-right: 20px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: flex-end;
+      }
+
+      nav li {
+        margin: 0 15px;
+        display: inline;
+      }
+
+      nav a {
+        color: #575757;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 24px;
+        /*
+Code copied from: https://css-tricks.com/almanac/properties/t/transition/
+Author: css-tricks.com
+Name: transition
+Description: Smooth Colour Transition
+Date retrieved: December 5 2023
+*/
+        /* Copied code starts */
+        transition: color 0.8s ease;
+        /* Copied code ends */
+      }
+
+      nav a:hover {
+        color: #b395d1;
+      }
+
+      section {
+
+        padding-top: 300px;
+      }
+
+      h2 {
+        color: white;
+        /* White */
+      }
+
+      .about-content {
+        display: flex;
+        align-items: center;
+      }
+
+      .about-content img {
+        margin-right: 20px;
+        max-width: 200px;
+      }
+
+      .image-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      .about-container {
+        background-color: #b395d1;
+        border-radius: 40px;
+        padding: 30px;
+        margin: 5px;
+      }
+
+      .history-container {
+        background-color: white;
+        border-radius: 40px;
+        padding: 30px;
+        margin: 5px;
+      }
+
+      /*
+Code copied from: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption
+Author: mdn web docs
+Name: The Figure Caption element
+Description: Captions under images.
+Date retrieved: December 6 2023
+*/
+      /* Copied code starts */
+      .image-gallery figcaption {
+        color: #b395d1;
+        text-align: center;
+        margin-top: 0px;
+      }
+
+      /* Copied code ends */
+
+
+      footer {
+        background-color: #fffafa;
+        color: #b395d1;
+        text-align: right;
+        padding: 10px;
+        width: 100%;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+
+      th {
+        background-color: white;
+        color: #b395d1;
+        ;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <img class="logo-img" src="cat logo.png" alt="Logo" height="90px">
+      <h1 class="font-effect-shadow-multiple"> - ୨୧ . * Maleeha Abrar * . ୨୧ - </h1>
+      <p>traditional art portfolio</p>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#history">History</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="about">
+      <div class="about-container">
+        <h2>About</h2>
+        <div class="about-content">
+          <img src="paint.jpg" alt="Paint Brushes"> <!-- Photo by Deeana Arts: https://www.pexels.com/photo/shallow-focus-photo-of-paint-brushes-1646953/-->
+          <p>From a young age, pencils, crayons, and colorful paper riddled my workspace, yearning for my small hands to experiment and let my imagination shine on the pieces of paper. I found great joy in expressing my creativity and creating unique works of art which influenced me to hold visual art as a hobby through my childhood, teenage years, and now into adulthood. Visual art has always been a major influence in my life as I grew up. It helped me express my creativity, while also giving me a sense of accomplishment when I was able to complete a work of art. It also allowed me to express myself, as I was able to create pieces that reflected my own unique style and vision. It was a way for me to express my emotions, as I could create pieces that were reflective of my inner thoughts and feelings. Art also allowed me to explore my creativity, as I was able to experiment with different techniques and mediums to create works of art that were truly unique and personal. I found peace in creating art. It was a form of self-expression that allowed me to express my emotions in a way that words couldn't.</p>
+          <p>
+
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="history">
+      <div class="history-container">
+        <h2 style="color: #b395d1;">History</h2>
+        <div class="image-gallery">
+          <figure>
+            <img src="nine.jpg" alt="Age 8 - Artwork" height="300px" width="300px">
+            <figcaption>Age 8</figcaption>
+          </figure>
+
+          <figure>
+            <img src="three.jpg" alt="Age 10 - Artwork" height="300px" width="300px">
+            <figcaption>Age 10</figcaption>
+          </figure>
+
+          <figure>
+            <img src="two.jpg" alt="Age 11 - Artwork" height="300px" width="300px">
+            <figcaption>Age 11</figcaption>
+          </figure>
+
+          <figure>
+            <img src="one.jpg" alt="Age 11 - Artwork" height="300px" width="300px">
+            <figcaption>Age 11</figcaption>
+          </figure>
+
+          <figure>
+            <img src="six.jpg" alt="Age 12 - Artwork" height="300px" width="300px">
+            <figcaption>Age 12</figcaption>
+          </figure>
+
+          <figure>
+            <img src="four.jpg" alt="Age 14 - Artwork" height="300px" width="300px">
+            <figcaption>Age 14</figcaption>
+          </figure>
+
+          <figure>
+            <img src="five.jpg" alt="Age 15 - Artwork" height="300px" width="300px">
+            <figcaption>Age 15</figcaption>
+          </figure>
+
+          <figure>
+            <img src="eight.jpg" alt="Age 16 - Artwork" height="300px" width="300px">
+            <figcaption>Age 16</figcaption>
+          </figure>
+
+          <figure>
+            <img src="seven.jpg" alt="Age 17 - Artwork" height="300px" width="300px">
+            <figcaption>Age 17</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="about-container">
+        <h2>Portfolio - Recent Artwork (2022-2023)</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Artwork</th>
+              <th>Title</th>
+              <th>Reference</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><img src="artwork1.jpg" alt="Artwork 1" height="400px"></td>
+              <td>Frank Ocean Blond</td>
+              <td><img src="reference1.jpg" alt="Reference 1" height="400px"></td> <!-- Image Source: https://en.wikipedia.org/wiki/Blonde_%28Frank_Ocean_album%29-->
+            </tr>
+            <tr>
+              <td><img src="artwork2.jpg" alt="Artwork 2" height="400px"></td>
+              <td>Evanescence</td>
+              <td><img src="reference2.jpg" alt="Reference 2" height="400px"></td> <!-- Image Source: https://en.wikipedia.org/wiki/Fallen_%28Evanescence_album%29-->
+            </tr>
+            <tr>
+              <td><img src="artwork3.png" alt="Artwork 3" height="400px"></td>
+              <td>Valorant Viper (my artstyle)</td>
+              <td><img src="reference3.png" alt="Reference 3" height="400px"></td> <!-- Image Source: https://valorant.fandom.com/wiki/Viper-->
+            </tr>
+            <tr>
+              <td><img src="artwork4.png" alt="Artwork 4" height="400px"></td>
+              <td>Avatar Katara (my artstyle)</td>
+              <td><img src="reference4.png" alt="Reference 4" height="400px"></td> <!-- Image Source: https://civitai.com/models/46153/katara-avatar-the-last-airbender-character-lora-->
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer>
+      <p> Maleeha's Art Portfolio 2023 </p>
+    </footer>
+
+  </body>
+</html>
